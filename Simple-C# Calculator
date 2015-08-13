@@ -1,0 +1,15 @@
+Start:
+			double num01;
+			double num02;
+
+				Console.Write ("Type a number to be divided: ");
+				num01 = Convert.ToDouble (Console.ReadLine ());
+				Console.Write ("Type another number to me divided: ");
+				num02 = Convert.ToDouble (Console.ReadLine ());
+
+				Console.WriteLine (num01 + " divided by " + num02 + " = " + num01 / num02);
+				Console.WriteLine ("<Press space to devide a new pair of numbers>");
+
+			Console.ReadKey ();
+			Console.WriteLine ();
+			goto Start;
